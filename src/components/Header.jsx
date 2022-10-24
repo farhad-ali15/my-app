@@ -1,11 +1,20 @@
 
 
-function Header(){
+function Header({person}){
+
+  console.log()
     return(
       <header>
       <p>
-        THE HEADER
+        {person.name}
       </p>
+      <p>
+        {person.age}
+      </p>
+      <p>
+        {person.salary}
+      </p>
+      
     </header>
     )
   }
