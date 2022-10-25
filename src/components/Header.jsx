@@ -1,21 +1,12 @@
 
 
-function Header({person}){
+function Header() {
 
   console.log()
-    return(
-      <header>
-      <p>
-        {person.name}
-      </p>
-      <p>
-        {person.age}
-      </p>
-      <p>
-        {person.salary}
-      </p>
-      
+  return (
+    <header>
+      <h1>Header component</h1>
     </header>
-    )
-  }
+  )
+}
 export default Header; 
