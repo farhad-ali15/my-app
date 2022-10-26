@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#000;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+   
+    
+    
+}
+.bi-geo-fill{
+  color: red;
+}
+.txt-loc{
+  color: white;
+  font-weight: 700;
+}
+.btn-cart-counter{
+  color: white;
+  border: 2px solid white;
+}
+.btn-delivery{
+  background-color:#48413E;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar .btn:hover{
+  background-color: #48413E;
+  color: white;
 }

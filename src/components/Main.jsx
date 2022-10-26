@@ -1,25 +1,25 @@
+import Card from "./Card";
+
+
 function Main({ products }) {
 
 
 
 
   return (
-    <main>{
-      products.map(products => {
-
-        return (
-          <>
-            <div>
-              <img src="{product.image}" alt="" />
-            <h1>{products.title}</h1>
-            <p>{products.description}</p>
-            <p>{products.price}</p>
-            <p>{products.category}</p>
-            </div>
-          </>
+    <main className="container">
+     <div  className="row">
+      {products.map(product=>{
+        return(
+          <div key={product.id} className="col-md-3">
+            <Card product={product} />
+          </div>
         )
-      })
-    }
+      })}
+     </div>
+          
+      
+    
 
     </main>
   );
