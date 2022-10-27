@@ -1,6 +1,6 @@
 function Footer(){
     return(
-      <footer className="container">
+      <footer >
         <p>
           This is the footer area
         </p>

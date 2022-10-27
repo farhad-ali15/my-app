@@ -7,7 +7,7 @@ function Main({ products }) {
 
 
   return (
-    <main className="container">
+    <main >
      <div  className="row">
       {products.map(product=>{
         return(

@@ -36,3 +36,7 @@ code {
   background-color: #48413E;
   color: white;
 }
+.card{
+  height: 100%;
+  margin-bottom: 9px;
+}
