@@ -1,5 +1,5 @@
 import logo from './KFC-Logo.png';
-
+import{Link} from "react-router-dom"
 
 
 function Header() {
@@ -9,9 +9,9 @@ function Header() {
     <header className='mb-5'>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img src={logo}></img>
-          </a>
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -31,7 +31,7 @@ function Header() {
                 <a className="btn btn-cart-counter mr-2" aria-current="page" href="#">0</a>
               </li>
               <li className="nav-item">
-                <a className="btn btn-danger" href="#">Register / Sign In</a>
+                <Link className="btn btn-danger" to="/login">Register / Sign In</Link>
               </li>
                            
             </ul>

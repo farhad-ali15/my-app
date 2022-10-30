@@ -1,24 +1,28 @@
 
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-import { useState } from "react";
-import {data} from "./data/all-data"
-import CategoryCard from "./components/CategoryCard";
-
-
-
-
+import Home from "./pages/Home"
+import{Routes,Route,Link} from 'react-router-dom'
+import Login from "./pages/Login"
+import AboutUs from "./pages/AboutUs"
+import Career from "./pages/Career"
+import Detail from "./pages/Detail"
+import CatDetail from "./pages/CatDetail"
 
 function App() {
   
 return(
-  <div className="container mb-5">
-    <Header/>
-    <CategoryCard categories={data.categories}/>
-    <Main products={data.products}/>
-    <Footer/>
+  <div className="container">
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/login" element={<Login />} />
+    <Route path="/AboutUs" element={<AboutUs />} />
+    <Route path="/Career" element={<Career />} />
+    <Route path='/product/:slug' element={<Detail />} />
+    <Route path='/categories/:CatSlug' element={<CatDetail />} />
+    
+
+  </Routes>
   </div>
+  
 )
 }
 

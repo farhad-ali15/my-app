@@ -7,7 +7,8 @@ export const data = {
     "stock": 20,
     "price": 220,
     "image": "images/9.png",
-    "category": "Everyday Value"
+    "category": "Everyday Value",
+    "slug":"everyday-value"
   },
   {
     "id": 2,
@@ -16,7 +17,8 @@ export const data = {
     "stock": 20,
     "price": 540,
     "image": "./images/2.png",
-    "category": "Signature Boxes"
+    "category": "Signature Boxes",
+    "slug":"signature-boxes"
   },
   {
     "id": 3,
@@ -25,7 +27,8 @@ export const data = {
     "stock": 20,
     "price": 290,
     "image": "./images/3.png",
-    "category": "Signature Boxes"
+    "category": "Signature Boxes",
+    "slug":"signature-boxes"
   },
   {
     "id": 4,
@@ -34,7 +37,8 @@ export const data = {
     "stock": 20,
     "price": 580,
     "image": "./images/4.png",
-    "category": "Signature Boxes"
+    "category": "Snacks and Beverages",
+    "slug":"signature-boxes"
   },
   {
     "id": 5,
@@ -43,7 +47,8 @@ export const data = {
     "stock": 20,
     "price": 1530,
     "image": "./images/5.png",
-    "category": "Sharing"
+    "category": "Midnight",
+    "slug":"sharing"
   },
   {
     "id": 6,
@@ -52,7 +57,8 @@ export const data = {
     "stock": 20,
     "price": 1690,
     "image": "./images/6.png",
-    "category": "Sharing"
+    "category": "Sharing",
+    "slug":"sharing"
   },
   {
     "id": 7,
@@ -61,7 +67,8 @@ export const data = {
     "stock": 20,
     "price": 1890,
     "image": "./images/7.png",
-    "category": "Sharing"
+    "category": "Sharing",
+    "slug":"sharing"
   },
   {
     "id": 8,
@@ -70,7 +77,8 @@ export const data = {
     "stock": 20,
     "price": 360,
     "image": "./images/8.png",
-    "category": "Ala Carte & Combos"
+    "category": "Ala Carte and Combos",
+    "slug":"ala-carte-and-combos"
   }
 ],
   "categories":[
@@ -82,7 +90,7 @@ export const data = {
     },
     {
       "id":2,
-      "title":'Ala carte combo',
+      "title":'Ala carte and combos',
       "description":'tasty',
       "image":'images/cat2.png'
   },
@@ -100,7 +108,7 @@ export const data = {
 },
 {
   "id":5,
-  "title":'Scacks & Beverages',
+  "title":'Snacks and Beverages',
   "description":'some',
   "image":'images/cat5.png'
 },
