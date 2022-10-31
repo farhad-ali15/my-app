@@ -2,7 +2,7 @@ import {Link} from "react-router-dom"
 
 function Card({ product }) {
     return (
-        <div className="card  height-100%"  >
+        <div className="card  height-90%"  >
             <img src={product.image} className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="card-title">{product.title}</h5>
