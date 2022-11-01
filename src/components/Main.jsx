@@ -18,7 +18,7 @@ function Main({ products }) {
           products.map(product => {
           let slug = convertToSlug(product.title)
           return (
-            <div key={product.id} className="col-md-3">
+            <div key={product.id} className="col-md-3 mb-4">
               <Link to={`/product/${slug}`}>
               <Card product={product}/></Link>
             </div>

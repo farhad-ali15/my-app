@@ -6,6 +6,7 @@ import AboutUs from "./pages/AboutUs"
 import Career from "./pages/Career"
 import Detail from "./pages/Detail"
 import CatDetail from "./pages/CatDetail"
+import CountryDetail from "./pages/CountryDetail"
 
 function App() {
   
@@ -18,6 +19,7 @@ return(
     <Route path="/Career" element={<Career />} />
     <Route path='/product/:slug' element={<Detail />} />
     <Route path='/categories/:CatSlug' element={<CatDetail />} />
+    <Route path='/country' element={<CountryDetail />} />
     
 
   </Routes>

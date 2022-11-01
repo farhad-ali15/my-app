@@ -28,7 +28,7 @@ function Header() {
                 <Link className="btn"  ><i className="bi bi-geo-fill"></i><span className="txt-loc">select Location</span> <i className="bi bi-chevron-compact-down txt-loc"></i></Link>
               </li>
               <li className="nav-item me-3">
-                <Link className="btn btn-cart-counter mr-2" >0</Link>
+                <Link to="/country" className="btn btn-cart-counter mr-2" >country</Link>
               </li>
               <li className="nav-item">
                 <Link className="btn btn-danger" to="/login">Register / Sign In</Link>
